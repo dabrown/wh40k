@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="21e36b7e-84ee-2ec0-53f2-2c32fd8bd981" revision="74" gameSystemId="e1ebd931-a209-3ce4-87b4-d9918d25530b" gameSystemRevision="0" battleScribeVersion="1.15" name="Space Wolves: Codex (2014)" books="" authorName="BSData" authorContact="" authorUrl="http://battlescribedata.appspot.com/#/repo/wh40k" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="21e36b7e-84ee-2ec0-53f2-2c32fd8bd981" revision="77" gameSystemId="e1ebd931-a209-3ce4-87b4-d9918d25530b" gameSystemRevision="0" battleScribeVersion="1.15" name="Space Wolves: Codex (2014)" books="" authorName="BSData" authorContact="" authorUrl="http://battlescribedata.appspot.com/#/repo/wh40k" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="dec7-3100-06a0-9ae8" name="&quot;Deathpack&quot;" points="0.0" categoryId="28b94f51-e66b-4096-aa59-0c9df620a77d" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Start Collecting! Space Wolves">
       <entries/>
@@ -26336,6 +26336,18 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
         </link>
       </links>
     </entry>
+    <entry id="886c-bc4d-a47d-ab52" name="Sniper Rifle" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" page="0">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="fb5c-d05a-c661-8e74" targetId="2b52bee9-f717-69ee-5cd7-fd846bbad89a" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="75574c25-250a-caa6-1c5e-85e0249643a3" name="Space Marine Bike" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" page="0">
       <entries>
         <entry id="b09f038f-9ca5-2f7f-cd7f-0352cd1328ef" name="Twin-linked Bolter" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" page="0">
@@ -26360,6 +26372,18 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
           <modifiers/>
         </link>
         <link id="3c6d3cdd-f7ef-affc-9356-8eb7e859b8b7" targetId="e419b169-b2cc-88b0-1b87-34a329d99a2b" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="7d4c-b866-8474-da6c" name="Space Marine Shotgun" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" page="0">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="8c42-05ed-16c7-5dba" targetId="1264b18b-4376-960a-749e-8eee34a89040" linkType="profile">
           <modifiers/>
         </link>
       </links>
@@ -35608,7 +35632,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
                 <link id="293ae8fe-8e61-e4be-d227-9286d411b2ae" targetId="5a2ea81e-b2dc-c9f1-b755-16fa94f7f90e" linkType="entry">
                   <modifiers/>
                 </link>
-                <link id="4b25f89e-7b92-e9be-d633-e4376139c1bb" targetId="d791dd4c-fba5-7cb5-cee6-3dfbea870a14" linkType="entry">
+                <link id="4b25f89e-7b92-e9be-d633-e4376139c1bb" targetId="85d2dada-b527-d574-f923-56ea9f013e6d" linkType="profile">
                   <modifiers/>
                 </link>
               </links>
@@ -36641,10 +36665,10 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
                 <link id="cc917ae3-dc07-70c7-c606-3cae1700974d" targetId="c50b8cd4-1671-2744-02dd-1c08ea726dc1" linkType="entry">
                   <modifiers/>
                 </link>
-                <link id="4f42-72a0-a680-3424" targetId="1264b18b-4376-960a-749e-8eee34a89040" linkType="profile">
+                <link id="4f42-72a0-a680-3424" targetId="7d4c-b866-8474-da6c" linkType="entry">
                   <modifiers/>
                 </link>
-                <link id="dd20-7c0f-db29-df14" targetId="82de7a82-9e87-8dc1-6d88-fbe1ee0c024c" linkType="profile">
+                <link id="dd20-7c0f-db29-df14" targetId="e9cfe9f3-9259-1e61-7c53-9f6147e5bee9" linkType="entry">
                   <modifiers/>
                 </link>
               </links>
@@ -36665,10 +36689,10 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
                 <link id="b574-16e6-3549-2135" targetId="c50b8cd4-1671-2744-02dd-1c08ea726dc1" linkType="entry">
                   <modifiers/>
                 </link>
-                <link id="2dbc-c9fb-e99d-10fb" targetId="82de7a82-9e87-8dc1-6d88-fbe1ee0c024c" linkType="profile">
+                <link id="2dbc-c9fb-e99d-10fb" targetId="e9cfe9f3-9259-1e61-7c53-9f6147e5bee9" linkType="entry">
                   <modifiers/>
                 </link>
-                <link id="39aa-1579-97e9-a87f" targetId="b5a15a10-378a-f59e-80a7-090b5c95a19d" linkType="profile">
+                <link id="39aa-1579-97e9-a87f" targetId="0b415c15-81b4-5a3f-b0ae-1e460d13a958" linkType="entry">
                   <modifiers/>
                 </link>
               </links>
@@ -36689,10 +36713,10 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
                 <link id="c884-225d-5b08-76b9" targetId="c50b8cd4-1671-2744-02dd-1c08ea726dc1" linkType="entry">
                   <modifiers/>
                 </link>
-                <link id="54ef-c8af-8d44-d055" targetId="82de7a82-9e87-8dc1-6d88-fbe1ee0c024c" linkType="profile">
+                <link id="54ef-c8af-8d44-d055" targetId="e9cfe9f3-9259-1e61-7c53-9f6147e5bee9" linkType="entry">
                   <modifiers/>
                 </link>
-                <link id="a292-92a2-fdfb-d374" targetId="2b52bee9-f717-69ee-5cd7-fd846bbad89a" linkType="profile">
+                <link id="a292-92a2-fdfb-d374" targetId="886c-bc4d-a47d-ab52" linkType="entry">
                   <modifiers/>
                 </link>
               </links>
@@ -36736,10 +36760,10 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
                 <link id="b7af-3929-a3a1-a2e8" targetId="c50b8cd4-1671-2744-02dd-1c08ea726dc1" linkType="entry">
                   <modifiers/>
                 </link>
-                <link id="4687-6c53-53b7-b8a8" targetId="82de7a82-9e87-8dc1-6d88-fbe1ee0c024c" linkType="profile">
+                <link id="4687-6c53-53b7-b8a8" targetId="e9cfe9f3-9259-1e61-7c53-9f6147e5bee9" linkType="entry">
                   <modifiers/>
                 </link>
-                <link id="c544-f1b2-94f6-1aec" targetId="5e3d402f-87bd-b6a1-e5b0-20c3fc1df6c2" linkType="profile">
+                <link id="c544-f1b2-94f6-1aec" targetId="62846049-a762-a1be-09d0-f62082d9c7ce" linkType="entry">
                   <modifiers/>
                 </link>
               </links>
@@ -36839,7 +36863,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
                 <link id="0ff4-45e9-4962-2605" targetId="c50b8cd4-1671-2744-02dd-1c08ea726dc1" linkType="entry">
                   <modifiers/>
                 </link>
-                <link id="bd9d-d4b7-b2c6-34a2" targetId="82de7a82-9e87-8dc1-6d88-fbe1ee0c024c" linkType="profile">
+                <link id="bd9d-d4b7-b2c6-34a2" targetId="e9cfe9f3-9259-1e61-7c53-9f6147e5bee9" linkType="entry">
                   <modifiers/>
                 </link>
               </links>
@@ -36949,7 +36973,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
                 <link id="7051-52f6-4580-1890" targetId="c50b8cd4-1671-2744-02dd-1c08ea726dc1" linkType="entry">
                   <modifiers/>
                 </link>
-                <link id="8d09-6d54-4678-a524" targetId="82de7a82-9e87-8dc1-6d88-fbe1ee0c024c" linkType="profile">
+                <link id="8d09-6d54-4678-a524" targetId="e9cfe9f3-9259-1e61-7c53-9f6147e5bee9" linkType="entry">
                   <modifiers/>
                 </link>
               </links>
@@ -36997,10 +37021,10 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
                 <link id="e584-eeac-b9d9-480a" targetId="c50b8cd4-1671-2744-02dd-1c08ea726dc1" linkType="entry">
                   <modifiers/>
                 </link>
-                <link id="b560-a0ab-c57c-4c6e" targetId="82de7a82-9e87-8dc1-6d88-fbe1ee0c024c" linkType="profile">
+                <link id="96ec-d6d1-d8cd-d83b" targetId="e9cfe9f3-9259-1e61-7c53-9f6147e5bee9" linkType="entry">
                   <modifiers/>
                 </link>
-                <link id="964f-96c9-4e88-5899" targetId="df2c46a5-cbaa-46c8-c4e6-fa4c1f30df51" linkType="profile">
+                <link id="e72b-6d43-168f-99e2" targetId="783d0a66-f9fc-b09e-d318-d2cb3cafe100" linkType="entry">
                   <modifiers/>
                 </link>
               </links>
@@ -38180,6 +38204,9 @@ Models in affected units add 1 to their Attack characteristic.</description>
             <link id="e74c2316-ea68-73c5-876f-8a1adf8fbe35" targetId="96f0f59a-7a00-6ed0-cbde-b243cb7fd14f" linkType="rule">
               <modifiers/>
             </link>
+            <link id="4218-393e-7641-3ee0" targetId="f9d2bc2a-a97d-d31a-6248-8c3e5bda2080" linkType="rule">
+              <modifiers/>
+            </link>
           </links>
         </entry>
         <entry id="d6093156-5327-6924-b78e-81d88b9ff13d" name="Rune Sword" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
@@ -38195,6 +38222,9 @@ Models in affected units add 1 to their Attack characteristic.</description>
             <link id="4f885b60-13c6-7a08-8701-957e3cd894dc" targetId="96f0f59a-7a00-6ed0-cbde-b243cb7fd14f" linkType="rule">
               <modifiers/>
             </link>
+            <link id="c150-04b3-4ec8-3376" targetId="f9d2bc2a-a97d-d31a-6248-8c3e5bda2080" linkType="rule">
+              <modifiers/>
+            </link>
           </links>
         </entry>
         <entry id="69bf6a48-8dd3-be35-824e-7c13277d2906" name="Rune Axe" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
@@ -38208,6 +38238,9 @@ Models in affected units add 1 to their Attack characteristic.</description>
               <modifiers/>
             </link>
             <link id="a2289251-4f16-7a3d-7453-ae11cc833032" targetId="96f0f59a-7a00-6ed0-cbde-b243cb7fd14f" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="76f9-77d1-93a3-7e7b" targetId="f9d2bc2a-a97d-d31a-6248-8c3e5bda2080" linkType="rule">
               <modifiers/>
             </link>
           </links>
@@ -43771,7 +43804,7 @@ Having Infiltrate also confers the Outflank special rule to units of Infiltrator
       <modifiers/>
     </rule>
     <rule id="1fca63c8-617f-5a94-544f-bd0ee6cc1cf6" name="Kingsguard (formation)" hidden="false" book="Champions of Fenris">
-      <description>The following Strike Force Daggerfist models have +1 Weapon Skill already included on profile:
+      <description>The following models in this Formation have +1 Weapon Skill already included on profile:
 
 - Wolf Guard
 - Wolf Guard Pack Leader
@@ -44365,7 +44398,8 @@ At the beginning of every subsequent player turn, the marker scatters 2D6&quot; 
       <description>Ragnar and all models with the Space Wolves Faction in his unit have the Furious Charge special rule.</description>
       <modifiers/>
     </rule>
-    <rule id="96f0f59a-7a00-6ed0-cbde-b243cb7fd14f" name="Ward" hidden="false" book="Codex: Space Wolves" page="52">
+    <rule id="96f0f59a-7a00-6ed0-cbde-b243cb7fd14f" name="Ward" hidden="false" book="Codex: Space Wolves" page="97">
+      <description>A model Equipped with this weapon has the Adamantium Will special rule.</description>
       <modifiers/>
     </rule>
     <rule id="d0738c1d-db35-3198-45a4-cbc753ead8fd" name="Ward of the Primarch" hidden="false" book="Codex: Space Wolves" page="57">
